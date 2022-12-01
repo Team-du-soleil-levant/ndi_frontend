@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.2.1...v0.2.2) (2022-12-01)
+
+
+### Bug Fixes
+
+* add react query (optimize query with cache) ([2bd6dce](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/2bd6dce17c18ea75bbc29cf050976417254648e1))
+
+
+
 ## [0.2.1](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.2.0...v0.2.1) (2022-12-01)
 
 
