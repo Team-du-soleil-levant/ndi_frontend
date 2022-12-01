@@ -1,4 +1,13 @@
-# 0.2.0 (2022-12-01)
+## [0.2.1](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.2.0...v0.2.1) (2022-12-01)
+
+
+### Bug Fixes
+
+* add sonarcloud information ([1f59f11](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/1f59f11bdaf8ca55c0b33d457674f35781322583))
+
+
+
+# [0.2.0](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/05c70e1f25e382609ed37cfedf3997d0bf3794b7...v0.2.0) (2022-12-01)
 
 
 ### Features
