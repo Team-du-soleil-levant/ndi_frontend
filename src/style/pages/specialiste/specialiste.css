@@ -1,0 +1,28 @@
+.background{
+  height: 100%;
+  width: 100%;
+  background-color: #b98cd3;
+}
+
+.plague-map{
+  width: 100%;
+  height: 500px;
+}
+
+.specialist{
+  display: flex;
+  height: 20rem;
+  width: auto;
+}
+
+.button-action{
+  margin-bottom: 1rem;
+}
+
+.button-container{
+  vertical-align: middle;
+}
+
+.plague-header{
+  padding-top: 3rem;
+}

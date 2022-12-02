@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'semantic-ui-css/semantic.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {QueryClient, QueryClientProvider} from "react-query";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {ReactQueryDevtools} from "react-query/devtools";
+import {SpecialistePage} from "./pages/SpecialistePage";
+import {FinalPage} from "./pages/chapter-5/FinalPage";
 
 const queryClient = new QueryClient(
     {
@@ -27,6 +30,8 @@ root.render(
         <Router>
             <Routes>
                 <Route path='/' element={<App />}/>
+                <Route path='/specialiste' element={<SpecialistePage />}/>
+                <Route path='/final' element={<FinalPage />}/>
                 {/* add here Route*/}
             </Routes>
         </Router>
