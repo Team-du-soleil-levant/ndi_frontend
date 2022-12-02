@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.0...v0.4.1) (2022-12-02)
+
+
+### Bug Fixes
+
+* change pack-lock ([ce80cc5](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/ce80cc5ded9252c714d1e8ddb8e089b1fe5891a0))
+
+
+
 # [0.4.0](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.3.0...v0.4.0) (2022-12-02)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * add sonarcloud information ([1f59f11](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/1f59f11bdaf8ca55c0b33d457674f35781322583))
-
-
-
-# [0.2.0](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/05c70e1f25e382609ed37cfedf3997d0bf3794b7...v0.2.0) (2022-12-01)
-
-
-### Features
-
-* Initialisation du projet pour la nuit de l'info ([05c70e1](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/05c70e1f25e382609ed37cfedf3997d0bf3794b7))
 
 
 
