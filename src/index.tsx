@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import {QueryClient, QueryClientProvider} from "react-query";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {ReactQueryDevtools} from "react-query/devtools";
+import Room from "./pages/Room";
+import WebSite from "./components/chapter-2/WebSite";
+
 
 const queryClient = new QueryClient(
     {
@@ -27,6 +30,8 @@ root.render(
         <Router>
             <Routes>
                 <Route path='/' element={<App />}/>
+                <Route path='/room' element={<Room />}/>
+                <Route path='/webSite' element={<WebSite />}/>
                 {/* add here Route*/}
             </Routes>
         </Router>
