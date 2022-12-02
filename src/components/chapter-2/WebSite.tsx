@@ -1,6 +1,6 @@
 import * as React from "react";
 import '../../style/website.css';
-import {Button, List, ListItem} from "@mui/material";
+import {Button, List, ListItem} from "semantic-ui-react";
 
 const WebSite = () => {
 
@@ -127,7 +127,7 @@ const WebSite = () => {
                 <p style={{textAlign: 'center', marginTop: '10vh'}}>Si vous avez des doutes sur le fait d'être infecté, n'hésitez pas à vous faire dépister ! </p>
 
                 <div style={{display: "flex", justifyContent: "center", marginBottom: "7vh"}}>
-                    <Button onClick={nextChapter} className="depisted" color="success" variant="contained">Se faire dépister !</Button>
+                    <Button green onClick={nextChapter} className="depisted" variant="contained">Se faire dépister !</Button>
                 </div>
 
             </div>

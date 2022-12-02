@@ -1,4 +1,3 @@
-import {Box} from '@mui/material';
 import {useNavigate} from "react-router-dom";
 import React, {useState} from 'react';
 import '../style/Asso.css';
@@ -161,8 +160,8 @@ function changeText() {
       : null }
         { stage > 11 ? 
         <>
-            <Box sx={{ height: 180 }}>
-      <Box sx={{ width: `calc(100px + 16px)` }}>
+            <div>
+      <div >
         <div className="center2">
         { roll === 0 ?
                 <div className="roll">
@@ -254,8 +253,8 @@ function changeText() {
         : null }
         <button className="buttonSpin" onClick={handleChange}>Dépistage</button>
         </div>
-      </Box>
-    </Box>
+      </div>
+    </div>
  </>
       : null }
   
