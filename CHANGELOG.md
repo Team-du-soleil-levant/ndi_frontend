@@ -1,3 +1,12 @@
+## [0.4.6](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.5...v0.4.6) (2022-12-02)
+
+
+### Bug Fixes
+
+* fix ([b9452f2](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/b9452f2a4b828329214a4cafac11386aeb17a2a8))
+
+
+
 ## [0.4.5](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.4...v0.4.5) (2022-12-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Konami code work ! ([25f2ccb](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/25f2ccb32a269c072ab0ad7f6706f448b5de7e3d))
-
-
-
-## [0.4.1](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.0...v0.4.1) (2022-12-02)
-
-
-### Bug Fixes
-
-* change pack-lock ([ce80cc5](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/ce80cc5ded9252c714d1e8ddb8e089b1fe5891a0))
 
 
 
