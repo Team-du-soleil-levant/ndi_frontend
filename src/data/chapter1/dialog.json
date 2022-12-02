@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "scene" : "party",
+        "speaker" : "Martin",
+        "dialog" : "Il commence à se faire tard et les gens commencent à partir. Je pense qu'on devrait y aller."
+    },
+    {
+        "id" : 2,
+        "scene" : "room",
+        "speaker" : "Martine",
+        "dialog" : "Je suis si fatiguée."
+    },
+    {
+        "id" : 3,
+        "scene" : "party",
+        "speaker" : "Moi",
+        "dialog" : "Ahlala cette soirée était bien arrosée !"
+    },
+    {
+        "id" : 4,
+        "scene" : "party",
+        "speaker" : "Moi",
+        "dialog" : "Ahlala cette soirée était bien arrosée !"
+    },
+    {
+        "id" : 5,
+        "scene" : "party",
+        "speaker" : "Moi",
+        "dialog" : "Ahlala cette soirée était bien arrosée !"
+    },
+    {
+        "id" : 6,
+        "scene" : "party",
+        "speaker" : "Moi",
+        "dialog" : "Ahlala cette soirée était bien arrosée !"
+    }
+]

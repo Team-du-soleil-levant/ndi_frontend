@@ -1,0 +1,6 @@
+.character {
+    position: absolute;
+    bottom: 19.5%;
+    left: 9%;
+    z-index: 0;
+}
