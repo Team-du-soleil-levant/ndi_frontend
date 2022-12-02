@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {QueryClient, QueryClientProvider} from "react-query";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {ReactQueryDevtools} from "react-query/devtools";
+import AppAsso from './asso/Asso';
 import Chapter1 from './pages/chapter1/chapter1';
 import {SpecialistePage} from "./pages/SpecialistePage";
 import {FinalPage} from "./pages/chapter-5/FinalPage";
@@ -22,6 +23,18 @@ const easterEgg = () =>{
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
+);
+root.render(
+    <QueryClientProvider client={queryClient}>
+        <Router>
+            <Routes>
+                <Route path='/' element={<App />}/>
+                <Route path='/asso' element={<AppAsso/>}/>
+                {/* add here Route*/}
+            </Routes>
+        </Router>
+        {process.env.NODE_ENV !== "production" ? <ReactQueryDevtools /> : null}
+    </QueryClientProvider>
 );
 
 
