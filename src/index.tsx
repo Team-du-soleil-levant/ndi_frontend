@@ -3,9 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'semantic-ui-css/semantic.min.css'
 import App from './App';
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import reportWebVitals from './reportWebVitals';
+import {QueryClient, QueryClientProvider} from "react-query";
+import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import {ReactQueryDevtools} from "react-query/devtools";
+import Chapter1 from './pages/chapter1/chapter1';
 import {SpecialistePage} from "./pages/SpecialistePage";
 import {FinalPage} from "./pages/chapter-5/FinalPage";
+
 
 import {AfficherTest} from './pages/Test';
 import Konami from "react-konami-code";
@@ -19,6 +24,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
+
 const deathStarExplode = (e:any) => {
     e.preventDefault();
     new Audio("https://www.cjoint.com/doc/21_05/KEhhYBEVF5L_Star-Wars-Theme-Song-.mp3").play();
@@ -31,6 +37,7 @@ const deathStarExplode = (e:any) => {
                     <Route path='/test' element={<AfficherTest/>}/>
                     <Route path='/specialiste' element={<SpecialistePage/>}/>
                     <Route path='/final' element={<FinalPage/>}/>
+                    <Route path='/chapter1' element={<Chapter1 />}/>
                     {/* add here Route*/}
                 </Routes>
             </Router>
