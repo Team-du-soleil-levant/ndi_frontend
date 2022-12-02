@@ -1,3 +1,12 @@
+## [0.4.5](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.4...v0.4.5) (2022-12-02)
+
+
+### Bug Fixes
+
+* fix ([5f60001](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/5f60001c3365bc281e4547f23ffa9a4c58dd695f))
+
+
+
 ## [0.4.4](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.3...v0.4.4) (2022-12-02)
 
 
@@ -31,16 +40,6 @@
 ### Bug Fixes
 
 * change pack-lock ([ce80cc5](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/ce80cc5ded9252c714d1e8ddb8e089b1fe5891a0))
-
-
-
-# [0.4.0](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.3.0...v0.4.0) (2022-12-02)
-
-
-### Features
-
-* OPENAI now work ! ([c8a9095](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/c8a9095d45b49d95aa28b2d8bac954091e005204))
-* OPENAI now work ! ([03645d1](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/03645d1cb7277a6e51bcafae3f4397e6c32e4b63))
 
 
 
