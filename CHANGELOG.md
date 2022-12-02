@@ -1,3 +1,13 @@
+# [0.4.0](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.3.0...v0.4.0) (2022-12-02)
+
+
+### Features
+
+* OPENAI now work ! ([c8a9095](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/c8a9095d45b49d95aa28b2d8bac954091e005204))
+* OPENAI now work ! ([03645d1](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/03645d1cb7277a6e51bcafae3f4397e6c32e4b63))
+
+
+
 # [0.3.0](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.2.2...v0.3.0) (2022-12-02)
 
 
