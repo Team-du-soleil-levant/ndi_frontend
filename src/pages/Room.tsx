@@ -2,7 +2,7 @@ import * as React from "react";
 import '../style/room.css';
 import Popup from "../components/chapter-2/Popup";
 import 'semantic-ui-css/semantic.min.css'
-import {Button, TextField} from "@mui/material";
+import {Button, Input} from "semantic-ui-react";
 
 
 const Room = () => {
@@ -88,9 +88,9 @@ const Room = () => {
 
                 <div className="container-antivirus">
                     <div className="field-container">
-                        <TextField id="field-activate" label="Activez le code capote antivirus !"  variant="outlined" color="success" style={{width: '17vw'}}/>
+                        <Input id="field-activate" label="Activez le code capote antivirus !"  variant="outlined" color="success" style={{width: '17vw'}}/>
                     </div>
-                    <Button id="button-activate" variant="contained" onClick={nextChapter} color="success" style={{marginLeft: '10px', opacity: '0'}}>Activer !</Button>
+                    <Button id="button-activate" variant="contained" onClick={nextChapter} green style={{marginLeft: '10px', opacity: '0'}}>Activer !</Button>
                 </div>
 
             </div>
