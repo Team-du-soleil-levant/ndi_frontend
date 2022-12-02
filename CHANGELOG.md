@@ -1,3 +1,12 @@
+## [0.4.15](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.14...v0.4.15) (2022-12-02)
+
+
+### Bug Fixes
+
+* pour la beauté de la chose ([4e6c60b](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/4e6c60b5346363361ca94695a8715bf30849cd84))
+
+
+
 ## [0.4.14](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.13...v0.4.14) (2022-12-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fix ([aa8dc4d](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/aa8dc4d2a131377164e8a64da3c8c127a2c8ba1a))
-
-
-
-## [0.4.10](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.9...v0.4.10) (2022-12-02)
-
-
-### Bug Fixes
-
-* fix ([0337408](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/03374085c9c4fc80f15a11539af9aafbadfa830b))
 
 
 
