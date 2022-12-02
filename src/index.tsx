@@ -54,7 +54,7 @@ const deathStarExplode = (e:any) => {
                     <Route path='/test' element={<AfficherTest/>}/>
                     <Route path='/specialiste' element={<SpecialistePage/>}/>
                     <Route path='/final' element={<FinalPage/>}/>
-                    <Route path='/chapter1' element={<Chapter1 />}/>
+                    <Route path='/chapter1' element={<Chapter1/>}/>
                     {/* add here Route*/}
                 </Routes>
             </Router>
@@ -75,6 +75,7 @@ const deathStarExplode = (e:any) => {
                     <Route path='/test' element={<AfficherTest/>}/>
                     <Route path='/specialiste' element={<SpecialistePage/>}/>
                     <Route path='/final' element={<FinalPage/>}/>
+                    <Route path='/chapter1' element={<Chapter1/>}/>
                     {/* add here Route*/}
                 </Routes>
             </Router>
