@@ -8,7 +8,6 @@
       overflow-y: hidden;
       overflow-x: hidden;
 }
-
 .helpername {
     position: relative;
     color: white;
@@ -119,12 +118,12 @@
   top: 150px;
   text-align: center;
 }
-.center{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+.center2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }

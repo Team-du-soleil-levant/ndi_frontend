@@ -163,7 +163,7 @@ function changeText() {
         <>
             <Box sx={{ height: 180 }}>
       <Box sx={{ width: `calc(100px + 16px)` }}>
-        <div className="center">
+        <div className="center2">
         { roll === 0 ?
                 <div className="roll">
                 <div className="card">
