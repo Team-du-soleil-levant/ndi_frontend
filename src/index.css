@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.konami-img-deathstar{
+  height: 25rem;
+  width: auto;
+  position: absolute;
+  top: 25rem;
+  left: 10rem;
+}
+
+.explotion{
+  position: absolute;
+  top: 25rem;
+  left: 10rem;
+}
+
+.luke-x-wing{
+  height: 17rem;
+  width: auto;
+  position: absolute;
+  top: 5rem;
+  left: 95rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
