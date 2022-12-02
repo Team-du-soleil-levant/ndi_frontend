@@ -14,8 +14,8 @@ const Room = () => {
         if(roomImg != null) roomImg.classList.add("room-img-hidden")
 
         setTimeout(() => {
-            if(roomImg != null) roomImg.style.width = '0';
-        }, 500)
+            if(roomImg != null) roomImg.style.height = '0';
+        }, 700)
 
     }, 2000)
 
@@ -70,22 +70,7 @@ const Room = () => {
     window.addEventListener("keydown", handleKeyboardEvent);
 
     function nextChapter() {
-
-        codeValidation = true
-        for(let i = 0 ; i < 6 ; i ++) {
-            let popup = document.getElementById("popup-" + i);
-            if (popup != null) popup.style.opacity = '0'
-        }
-
-        const computer = document.getElementById("container-img");
-        if (computer != null) {
-            computer.style.transform = "scale(5)";
-            computer.style.opacity = "0 !important";
-        }
-
-        setTimeout(() => {
-            window.location.assign("/website")
-        }, 1100);
+        window.location.assign("/website")
     }
 
     return(
@@ -94,15 +79,17 @@ const Room = () => {
             <div className="container-img" id="container-img">
                 <img id="computer-img" className="computer-img" src="chapter-2/computer-screen.png" alt="screen"/>
 
-                <Popup id="popup-0" text=""/>
-                <Popup id="popup-1" text=""/>
-                <Popup id="popup-2" text=""/>
-                <Popup id="popup-3" text=""/>
-                <Popup id="popup-4" text=""/>
-                <Popup id="popup-5" text=""/>
+                <Popup id="popup-0" text="!!! Augmentez la taille de votre pénis en à peine 10 minutes sans attraper le VIH !!! 🎁"/>
+                <Popup id="popup-1" text=" Le sexe oui, mais protégé ! 🎀 "/>
+                <Popup id="popup-2" text=" Découvrez les IST les plus à la mode sur https://www.cerballiance.fr/fr/blog/ist/ist-les-differents-types-dinfections 🥇"/>
+                <Popup id="popup-3" text=" Téléchargez cet antivirus pour éviter l'herpès, code : capote "/>
+                <Popup id="popup-4" text=" Warning ! 5 virus détectés, allez consulter un médecin ! 🚑 "/>
+                <Popup id="popup-5" text=" La tromperie est le nerf de la guerre, comme les rapports non-protégés "/>
 
                 <div className="container-antivirus">
-                    <TextField id="field-activate" label="Activez le code capote antivirus !" variant="outlined" color="success" style={{width: '17vw'}}/>
+                    <div className="field-container">
+                        <TextField id="field-activate" label="Activez le code capote antivirus !"  variant="outlined" color="success" style={{width: '17vw'}}/>
+                    </div>
                     <Button id="button-activate" variant="contained" onClick={nextChapter} color="success" style={{marginLeft: '10px', opacity: '0'}}>Activer !</Button>
                 </div>
 

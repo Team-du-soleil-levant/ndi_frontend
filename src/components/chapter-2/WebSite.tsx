@@ -5,7 +5,7 @@ import {Alert, Button, List, ListItem, Snackbar} from "@mui/material";
 const WebSite = () => {
 
     function nextChapter() {
-        window.location.assign("/")
+        window.location.assign("/asso")
     }
 
     return (

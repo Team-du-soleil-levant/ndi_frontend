@@ -20,7 +20,10 @@ const Popup = (props: any) => {
     return (
         <div className="popup" id={props.id} style={{left: x, top: y}}>
             <p onClick={hidePopup} className="popup-close">❌</p>
-            {props.text}
+            <div className="popup-container">
+                <p className="popup-text">{props.text}</p>
+                <img className="image-attention" src="chapter-2/attention.png" alt="attention"/>
+            </div>
         </div>
     )
 }
