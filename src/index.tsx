@@ -7,6 +7,8 @@ import {QueryClient, QueryClientProvider} from "react-query";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {ReactQueryDevtools} from "react-query/devtools";
 
+import {AfficherTest} from './pages/Test';
+
 const queryClient = new QueryClient(
     {
         defaultOptions: {
@@ -27,6 +29,7 @@ root.render(
         <Router>
             <Routes>
                 <Route path='/' element={<App />}/>
+                <Route path='/test' element={<AfficherTest/>}/>
                 {/* add here Route*/}
             </Routes>
         </Router>
