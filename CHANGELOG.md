@@ -1,3 +1,12 @@
+## [0.4.13](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.12...v0.4.13) (2022-12-02)
+
+
+### Bug Fixes
+
+* material = KO ([25abcd8](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/25abcd8af466129aa308e79f12dc419bfb4f494c))
+
+
+
 ## [0.4.12](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.11...v0.4.12) (2022-12-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fix ([57ecf04](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/57ecf0428b595fc427a7635d2c0e49c9a9be8eee))
-
-
-
-## [0.4.8](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.7...v0.4.8) (2022-12-02)
-
-
-### Bug Fixes
-
-* fix ([af58d0d](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/af58d0d17d606fa384fdd3dabe2f5f92280d966a))
 
 
 
