@@ -3,36 +3,90 @@
         "id" : 1,
         "scene" : "party",
         "speaker" : "Martin",
-        "dialog" : "Il commence à se faire tard et les gens commencent à partir. Je pense qu'on devrait y aller."
+        "dialog" : "*Embrase le dancefloor avec des pas de dances frénétiques et élégants.*"
     },
     {
         "id" : 2,
-        "scene" : "room",
+        "scene" : "party",
         "speaker" : "Martine",
-        "dialog" : "Je suis si fatiguée."
+        "dialog" : "Woah quel déhanché !"
     },
     {
         "id" : 3,
         "scene" : "party",
-        "speaker" : "Moi",
-        "dialog" : "Ahlala cette soirée était bien arrosée !"
+        "speaker" : "Martin",
+        "dialog" : "Tu n'es pas mal non plus !"
     },
     {
         "id" : 4,
         "scene" : "party",
-        "speaker" : "Moi",
-        "dialog" : "Ahlala cette soirée était bien arrosée !"
+        "speaker" : "Martine",
+        "dialog" : "Ça te dérange si on danse ensemble ?"
     },
     {
         "id" : 5,
         "scene" : "party",
-        "speaker" : "Moi",
-        "dialog" : "Ahlala cette soirée était bien arrosée !"
+        "speaker" : "Martin",
+        "dialog" : "Au contraire, ce serait avec plaisir."
     },
     {
         "id" : 6,
         "scene" : "party",
-        "speaker" : "Moi",
-        "dialog" : "Ahlala cette soirée était bien arrosée !"
+        "speaker" : "Narrateur",
+        "dialog" : "Après un certain temps l'ambiance retomba et nos protagonistes se rapprochèrent."
+    },
+    {
+        "id" : 7,
+        "scene" : "party",
+        "speaker" : "Narrateur",
+        "dialog" : "Martin proposa à Martine de dormir chez lui car il était tard."
+    },
+    {
+        "id" : 8,
+        "scene" : "room",
+        "speaker" : "Narrateur",
+        "dialog" : "Le lendemain matin."
+    },
+    {
+        "id" : 9,
+        "scene" : "room",
+        "speaker" : "Martin",
+        "dialog" : "Ah quelle nuit... Je ne me souvient de rien..."
+    },
+    {
+        "id" : 10,
+        "scene" : "room",
+        "speaker" : "Martine",
+        "dialog" : "Tu l'as bien jeté ?"
+    },
+    {
+        "id" : 11,
+        "scene" : "room",
+        "speaker" : "Martin",
+        "dialog" : "Jeté quoi ?"
+    },
+    {
+        "id" : 12,
+        "scene" : "room",
+        "speaker" : "Martine",
+        "dialog" : "LA CAPOTE IDIOT !"
+    },
+    {
+        "id" : 13,
+        "scene" : "room",
+        "speaker" : "Martin",
+        "dialog" : "Oups..."
+    },
+    {
+        "id" : 14,
+        "scene" : "room",
+        "speaker" : "Narrateur",
+        "dialog" : "Martin se précipita sur son ordinateur pour savoir quoi faire dans cette situation."
+    },
+    {
+        "id" : 15,
+        "scene" : "room",
+        "speaker" : "Narrateur",
+        "dialog" : "Martin se précipita sur son ordinateur pour savoir quoi faire dans cette situation."
     }
 ]
