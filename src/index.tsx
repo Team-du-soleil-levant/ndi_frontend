@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import {QueryClient, QueryClientProvider} from "react-query";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {ReactQueryDevtools} from "react-query/devtools";
+import Room from "./pages/Room";
+import WebSite from "./components/chapter-2/WebSite";
 import AppAsso from './asso/Asso';
 import Chapter1 from './pages/chapter1/chapter1';
 import {SpecialistePage} from "./pages/SpecialistePage";
@@ -29,6 +31,8 @@ root.render(
         <Router>
             <Routes>
                 <Route path='/' element={<App />}/>
+                <Route path='/room' element={<Room />}/>
+                <Route path='/webSite' element={<WebSite />}/>
                 <Route path='/asso' element={<AppAsso/>}/>
                 {/* add here Route*/}
             </Routes>
