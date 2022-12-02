@@ -1,3 +1,12 @@
+## [0.4.4](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.3...v0.4.4) (2022-12-02)
+
+
+### Bug Fixes
+
+* fix ([677e7bc](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/677e7bc11abc902230fbda04c7940dd168104fd8))
+
+
+
 ## [0.4.3](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.2...v0.4.3) (2022-12-02)
 
 
@@ -32,16 +41,6 @@
 
 * OPENAI now work ! ([c8a9095](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/c8a9095d45b49d95aa28b2d8bac954091e005204))
 * OPENAI now work ! ([03645d1](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/03645d1cb7277a6e51bcafae3f4397e6c32e4b63))
-
-
-
-# [0.3.0](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.2.2...v0.3.0) (2022-12-02)
-
-
-### Features
-
-* ajout du chapitre 4 avec le plague-inc game ([c0c3e11](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/c0c3e116bc579eb685564d24a6dfcc2debf9dfb9))
-* plague-inc totaly work, but need to fix chapter 5 with Elliott work ([aaf3607](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/aaf3607b083e5d2cf6cfe1bd0db34d3e8158f3d1))
 
 
 
