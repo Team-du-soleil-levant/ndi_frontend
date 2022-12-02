@@ -1,3 +1,12 @@
+## [0.4.7](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.6...v0.4.7) (2022-12-02)
+
+
+### Bug Fixes
+
+* fix ([a9923bb](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/a9923bb009ae2b583bcc992c7ee769c7b08a11cd))
+
+
+
 ## [0.4.6](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.5...v0.4.6) (2022-12-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Ajout du script et possibilité d'en passer un en parametre d'une scene ([cbd86e3](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/cbd86e36ca6075fc0d0c6f4c0c0f543f34675160))
-
-
-
-## [0.4.2](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.1...v0.4.2) (2022-12-02)
-
-
-### Bug Fixes
-
-* Konami code work ! ([25f2ccb](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/25f2ccb32a269c072ab0ad7f6706f448b5de7e3d))
 
 
 
