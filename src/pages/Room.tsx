@@ -88,7 +88,7 @@ const Room = () => {
 
                 <div className="container-antivirus">
                     <div className="field-container">
-                        <Input id="field-activate" label="Activez le code capote antivirus !"  variant="outlined" color="success" style={{width: '17vw'}}/>
+                        <Input id="field-activate" placeholder="Activez le code capote antivirus !"  variant="outlined" color="success" style={{width: '17vw'}}/>
                     </div>
                     <Button id="button-activate" variant="contained" onClick={nextChapter} green style={{marginLeft: '10px', opacity: '0'}}>Activer !</Button>
                 </div>
