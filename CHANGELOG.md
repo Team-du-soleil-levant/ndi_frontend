@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.1...v0.4.2) (2022-12-02)
+
+
+### Bug Fixes
+
+* Konami code work ! ([25f2ccb](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/25f2ccb32a269c072ab0ad7f6706f448b5de7e3d))
+
+
+
 ## [0.4.1](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.0...v0.4.1) (2022-12-02)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * add react query (optimize query with cache) ([2bd6dce](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/2bd6dce17c18ea75bbc29cf050976417254648e1))
-
-
-
-## [0.2.1](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.2.0...v0.2.1) (2022-12-01)
-
-
-### Bug Fixes
-
-* add sonarcloud information ([1f59f11](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/1f59f11bdaf8ca55c0b33d457674f35781322583))
 
 
 
