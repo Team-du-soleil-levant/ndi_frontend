@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {QueryClient, QueryClientProvider} from "react-query";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import {ReactQueryDevtools} from "react-query/devtools";
+import AppAsso from './asso/Asso';
 
 const queryClient = new QueryClient(
     {
@@ -27,6 +28,7 @@ root.render(
         <Router>
             <Routes>
                 <Route path='/' element={<App />}/>
+                <Route path='/asso' element={<AppAsso/>}/>
                 {/* add here Route*/}
             </Routes>
         </Router>
