@@ -22,7 +22,7 @@ const Room = () => {
     setTimeout(() => {
         const body = document.body;
         if(body != null) {
-            body.style.backgroundImage = "url('chapter-2/room-pov-computer.png')"
+            body.style.backgroundImage = "url('/chapter-2/room-pov-computer.png')"
             body.style.backgroundSize = "cover";
         }
         const computerImg = document.getElementById("container-img");
@@ -75,9 +75,9 @@ const Room = () => {
 
     return(
         <div>
-            <img id="room-img" className="room-img" src="chapter-2/room-pov-computer.png" alt="room"/>
+            <img id="room-img" className="room-img" src="/chapter-2/room-pov-computer.png" alt="room"/>
             <div className="container-img" id="container-img">
-                <img id="computer-img" className="computer-img" src="chapter-2/computer-screen.png" alt="screen"/>
+                <img id="computer-img" className="computer-img" src="/chapter-2/computer-screen.png" alt="screen"/>
 
                 <Popup id="popup-0" text="!!! Augmentez la taille de votre pénis en à peine 10 minutes sans attraper le VIH !!! 🎁"/>
                 <Popup id="popup-1" text=" Le sexe oui, mais protégé ! 🎀 "/>

@@ -1,6 +1,6 @@
 import * as React from "react";
 import '../../style/website.css';
-import {Alert, Button, List, ListItem, Snackbar} from "@mui/material";
+import {Button, List, ListItem} from "@mui/material";
 
 const WebSite = () => {
 
@@ -57,7 +57,6 @@ const WebSite = () => {
                     </div>
 
                 </div>
-
 
                 <div className="category">
 

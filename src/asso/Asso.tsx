@@ -1,7 +1,6 @@
-import { Box, FormControlLabel, Slide, Switch } from '@mui/material';
-import { useNavigate } from "react-router-dom";
-import React from 'react';
-import { useState } from 'react';
+import {Box} from '@mui/material';
+import {useNavigate} from "react-router-dom";
+import React, {useState} from 'react';
 import '../style/Asso.css';
 
 var stage = 0;
@@ -146,7 +145,7 @@ function changeText() {
 }
   return (
     <div className="AppAsso">
-      <img src="chapter3/background.jpg" alt="background" className="background"/>
+      <img src="chapter3/background.jpg" alt="background" className="background2"/>
       <img src="chapter3/aide.png" alt="aide" className="helper"/>
       { stage <= 10 ? <img src="chapter3/heart.png" alt="heart" className="heart1"/> : null }
       { stage <= 9 ? <img src="chapter3/heart.png" alt="heart" className="heart2"/> : null }

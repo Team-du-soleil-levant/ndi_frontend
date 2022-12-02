@@ -52,7 +52,6 @@ export const GeoChart = () => {
 
     useEffect(() => {
         const isGameFinish = () : boolean =>{
-            console.log(mapData.filter(value => Number(value[1]) !== 0).length)
             return mapData.filter(value => Number(value[1]) !== 0).length === 1;
         }
 
@@ -60,7 +59,6 @@ export const GeoChart = () => {
             const healing_percentage = Math.floor(Math.random() * 10);
             mapData.forEach(value => {
                 if (value[1] !== 'Value') {
-                    console.log(healingImpact)
                     if (healing_percentage <= healingImpact) {
                         value[1] = Number(value[1]) - (healingImpact === 9 ? 9 : Math.floor(Math.random() * 3));
                         if (value[1] < 0) {

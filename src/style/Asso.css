@@ -1,17 +1,14 @@
 .AppAsso {
     background-image: url(./background.jpg);
 }
-.background {
+.background2 {
       position: absolute;
       height: 100vh;
       width: auto;
       overflow-y: hidden;
       overflow-x: hidden;
 }
-body {
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+
 .helpername {
     position: relative;
     color: white;

@@ -22,7 +22,7 @@ const Popup = (props: any) => {
             <p onClick={hidePopup} className="popup-close">❌</p>
             <div className="popup-container">
                 <p className="popup-text">{props.text}</p>
-                <img className="image-attention" src="chapter-2/attention.png" alt="attention"/>
+                <img className="image-attention" src="/chapter-2/attention.png" alt="attention"/>
             </div>
         </div>
     )

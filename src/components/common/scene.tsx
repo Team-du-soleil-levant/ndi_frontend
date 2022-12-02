@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import Dialog from './dialog';
 import '../../style/chapter1/chapter1.css'
 import Character from './character';
+import {useNavigate} from "react-router-dom";
 
 type Data = {
     data: string;
 }
 
 export const Scene = (props:Data) => {
+    const navigate = useNavigate();
 
     var datas = JSON.parse(props.data)
 
@@ -20,7 +22,7 @@ export const Scene = (props:Data) => {
 
     const handler = (e:any) => {
         if(compt >= datas.length - 1) {
-            console.log("faux!")
+            navigate('/room/')
             
         } else {
             setCompt(compt+1)
