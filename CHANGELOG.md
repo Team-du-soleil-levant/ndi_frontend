@@ -1,3 +1,12 @@
+## [0.4.8](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.7...v0.4.8) (2022-12-02)
+
+
+### Bug Fixes
+
+* fix ([af58d0d](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/af58d0d17d606fa384fdd3dabe2f5f92280d966a))
+
+
+
 ## [0.4.7](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.6...v0.4.7) (2022-12-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fix ([677e7bc](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/677e7bc11abc902230fbda04c7940dd168104fd8))
-
-
-
-## [0.4.3](https://github.com/Team-du-soleil-levant/ndi_frontend/compare/v0.4.2...v0.4.3) (2022-12-02)
-
-
-### Bug Fixes
-
-* Ajout du script et possibilité d'en passer un en parametre d'une scene ([cbd86e3](https://github.com/Team-du-soleil-levant/ndi_frontend/commit/cbd86e36ca6075fc0d0c6f4c0c0f543f34675160))
 
 
 
