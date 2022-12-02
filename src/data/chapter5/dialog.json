@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "scene" : "room",
+        "speaker" : "Martin",
+        "dialog" : "Je viens de faire mon dépistage et je suis négatif ! Et j'ai accessoirement sauvé le monde."
+    },
+    {
+        "id" : 2,
+        "scene" : "room",
+        "speaker" : "Martin",
+        "dialog" : "Maintenant c'est à toi de te faire dépister."
+    },
+    {
+        "id" : 3,
+        "scene" : "room",
+        "speaker" : "Martine",
+        "dialog" : "Mais si tu n'as rien ça veut dire que moi non plus !"
+    },
+    {
+        "id" : 4,
+        "scene" : "room",
+        "speaker" : "Martin",
+        "dialog" : "Ça ne veut rien dire ! Je peux très bien ne rien avoir attrapé parce qu'on l'aurait fait protégé."
+    },
+    {
+        "id" : 5,
+        "scene" : "room",
+        "speaker" : "Martin",
+        "dialog" : "Se faire dépister c'est aussi protéger les autres !"
+    },
+    {
+        "id" : 6,
+        "scene" : "room",
+        "speaker" : "Narrator",
+        "dialog" : "FIN !"
+    }
+]
