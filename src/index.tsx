@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'semantic-ui-css/semantic.min.css'
 import App from './App';
-import 'semantic-ui-css/semantic.min.css'
 import reportWebVitals from './reportWebVitals';
 import {QueryClient, QueryClientProvider} from "react-query";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
